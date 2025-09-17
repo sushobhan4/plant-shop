@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background: #4caf50;
+  padding: 1rem;
+  color: white;
+}
+
+.header a {
+  color: white;
+  margin: 0 1rem;
+  text-decoration: none;
+}
+
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.product-card {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  width: 180px;
+  text-align: center;
+}
+
+.product-card img {
+  max-width: 100%;
+}
+
+.cart {
+  padding: 1rem;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+button {
+  margin: 0.3rem;
+  padding: 0.5rem 1rem;
+}
